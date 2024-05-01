@@ -26,8 +26,8 @@ const store= createStore(
     initialstate,
     composeWithDevTools(applyMiddleware(...middleware))
 )
-export const server= `${process.env.SERVER}/blood/v1`
-export const server1= `${process.env.SERVER}/blood/v1`
-console.log(process.env.SERVER)
+export const server= `https://wbd-full-backend.onrender.com/blood/v1`
+export const server1= `https://wbd-full-backend.onrender.com/blood/v1`
+
 
 export default store;
