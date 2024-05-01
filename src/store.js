@@ -28,5 +28,6 @@ const store= createStore(
 )
 export const server= `${process.env.SERVER}/blood/v1`
 export const server1= `${process.env.SERVER}/blood/v1`
+console.log(process.env.SERVER)
 
 export default store;
