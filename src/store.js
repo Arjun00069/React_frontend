@@ -26,8 +26,8 @@ const store= createStore(
     initialstate,
     composeWithDevTools(applyMiddleware(...middleware))
 )
-export const server= `https://react-backend-2.onrender.com/blood/v1`
-export const server1= `https://react-backend-2.onrender.com/blood/v1`
+export const server= `https://react-backend-3.onrender.com/blood/v1`
+export const server1= `https://react-backend-3.onrender.com/blood/v1`
 
 
 export default store;
